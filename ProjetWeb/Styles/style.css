@@ -1,0 +1,135 @@
+body{
+    /* background-image: url("../assets/wallpaper.png"); */
+    margin: 0;
+
+    
+
+} 
+    
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.traveler-container {
+    position: fixed;
+    bottom: 35px;
+    left: 20px;
+    z-index: 999; /* Assurez-vous que l'élément est au-dessus du contenu */
+  }
+  
+  .traveler {
+    height: 270px;
+    width: 184px;
+    background-image: url("../assets/walking.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; /* Position initiale */
+  }
+  
+  .walking {
+    animation: walk 0.6s steps(5) infinite;
+  }
+  
+  @keyframes walk {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -920px 0;
+    }
+  }
+
+
+
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.first{
+    background-image: url("../assets/wallpaper.png");
+}
+
+.rules{
+    background-image: url("../assets/wallpaper.png");
+}
+
+.play{
+    background-image: url("../assets/wallpaper.png");
+}
+
+.resultat{
+    background-image: url("../assets/wallpaper.png");
+}
+.wayToRule{
+    background-image: url("../assets/wallpaper.png");
+}
+
+.out-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+   
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.firstPanneauDroit{
+    height: 150px;
+    width: 150px;
+
+    position: relative;
+
+    top : 68%;
+    left : 70%;
+}
+
+.RulesPanneauDroit{
+    height: 150px;
+    width: 150px;
+
+    position: relative;
+
+    top : 64%;
+    left : 70%;
+}
+
+.PlaneRules{
+    height: 200px;
+    position: relative;
+    left: 15%;
+
+}
+
+.RulesIndication{
+    position: relative;
+    left: -475px;
+    top: -155px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
