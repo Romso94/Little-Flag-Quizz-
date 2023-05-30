@@ -90,13 +90,13 @@ body{
     overflow-x: hidden;
     position: absolute;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
    
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     display: none;
-}
+} */
 
 .firstPanneauDroit{
     height: 150px;
@@ -115,7 +115,7 @@ body{
     position: absolute;
 
     top : 70%;
-    left : 47%;
+    left : 40%;
     }
 
 .PlaneRules{
@@ -127,7 +127,7 @@ body{
 
 .RulesIndication{
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: -155px;
     font-weight: bold;
     font-size: 30px;
@@ -138,7 +138,7 @@ body{
     width: 320px;
     height: 310px;
     position: absolute;
-    left: -2000px;
+    right: 20%;
     
 }
 
@@ -156,12 +156,27 @@ body{
     font-size: 25px;
 }
 
-.catDodo{
-    width: 180;
-    height: 180;
-    background-image: url("/assets/catRompiche.png");
-    background-repeat: no-repeat;
-   
-    top : 50%;
-    
+
+
+.Trophy{
+    position: absolute;
+    bottom: 7%;
 }
+
+
+.tipsTrophy{
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.rocket{
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    top:66%;
+    left: 60%;
+
+}
+

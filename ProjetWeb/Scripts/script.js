@@ -4,12 +4,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var traveler = document.getElementById('traveler');
     
-
-
-     
-
-
-
 })
 
 
