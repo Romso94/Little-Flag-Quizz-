@@ -15,33 +15,52 @@
             <a href="./accueil.html"><img class="logo" src="./assets/result.png"/></a>
             <ul>
                 <li><a href="./Regles.html">Règles</a></li>
-                <li><a href="./Resultat.html">Résultat</a></li>
+               
                 <li><a href="./Apropos.html">A propos</a></li>
             </ul>
         </nav>
 
     </header>
-    <h1>Quizz</h1>
+
     <div class="MainContent">
         <div>
-            <img class="Flag" src="https://flagcdn.com/fr.svg"/>
+            <img class="Flag" id="Flag"/>
         </div>
        
         <div class="formContent">
             <form>
                 <label>Entrez votre Réponse : </label>
-                <input type="text">
-               <button>Question suivante </button>
+                <input type="text" id="user-response">
+               <button id="submit-response">Question suivante </button>
             </form>
 
         </div>
 
         <div class="numeroQuestion">
-            <p>Question numero <strong>1</strong> / 20 </p>
+            <p>Question numero <strong id='num'></strong> / 20 </p>
         </div>
 
         
 
+        
+
+        
+
+    </div>
+
+    <h2 id="score"></h2>
+
+    <div class="tableauReponse">
+        
+        <table>
+            <thead>
+                <tr>
+                  <th>Question Numéro</th>
+                  <th>Votre Réponse</th>
+                  <th>Nom du Pays</th>
+                </tr>
+              </thead>
+        </table>
     </div>
     
 </body>

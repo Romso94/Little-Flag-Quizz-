@@ -2,6 +2,7 @@
 
 body{
     margin-top: 10px;
+    background-image: linear-gradient(to right top, #304c89, #12639c, #0079aa, #008eb3, #00a3b9, #2db2b7, #51c0b3, #73cdae, #9fd8ae, #c4e2b5, #e4ecc2, #fff7d6);
    
 }
 
@@ -41,21 +42,20 @@ nav {
   }
 
 
-  .MainContent{
+  .MainContent {
     display: flex;
-    flex-direction : column;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-   
     margin-top: 50px;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 100%;
+    height: 700px;
     width: 70%;
     border: 1px solid #000;
-    
+    background-color: #333;
+    margin-left: auto; 
+  margin-right: auto;
+  
+  color: white;
+  border-radius: 10px;
   }
 
 
