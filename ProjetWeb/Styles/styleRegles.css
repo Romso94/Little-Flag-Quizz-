@@ -1,0 +1,128 @@
+
+
+body{
+    margin-top: 10px;
+   
+}
+
+
+
+
+
+nav {
+    width:auto;
+    height:auto;
+    position:relative;
+    border:solid 1px black;
+    margin:25px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  
+  ul {
+    list-style-type:none;
+  }
+  
+  li {
+    width:auto;
+    margin:0 25px;
+
+  }
+
+  ul {
+    display:inline-flex;
+    justify-content:flex-end;
+  }
+
+  .logo{
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .MainContent{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 70%;
+    border: 1px solid #000;
+    
+  }
+
+
+  .Flag{
+    height: 130px;
+    width: 200px;
+    position: relative;
+    top:50%;
+  }
+
+
+  .formContent{
+    position: relative;
+    top : 30%;
+  }
+
+  .NextQuestion{
+    position: relative;
+    top : 40%;
+  }
+
+  table, td, th {
+    border: 1px solid #333;
+    text-align: center;
+    }
+    thead, tfoot {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    }
+
+
+
+.ResultatTab{
+    position: relative;
+    top : 10%;
+}
+
+.presentation{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: auto;
+/* border: 1px solid black; */
+}
+
+
+#rocket, #trophy{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+h1, h3,h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+
+.blank{
+  position: absolute;
+  height: 150px;
+
+}

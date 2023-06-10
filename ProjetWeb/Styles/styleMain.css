@@ -21,8 +21,8 @@ body{
 
 .traveler-container {
     position: fixed;
-    bottom: 35px;
-    left: 20px;
+    bottom: 30px;
+    /* left: 20px; */
     z-index: 100; 
   }
   
@@ -57,17 +57,17 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    width: 400vw;
+    width: 300vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
 
-.first{
-    background-image: url("../assets/wallpaper.png");
-}
+
 
 .rules{
     background-image: url("../assets/wallpaper.png");
+   
+
 }
 
 .play{
@@ -98,15 +98,6 @@ body{
     display: none;
 } */
 
-.firstPanneauDroit{
-    height: 150px;
-    width: 150px;
-
-    position: absolute;
-
-    bottom: 2%;
-    left: 10%;
-}
 
 .RulesPanneauDroit{
     height: 150px;
@@ -115,14 +106,42 @@ body{
     position: absolute;
 
     bottom : 5%;
-    left : 40%;
+    left : 30%;
     }
 
 .PlaneRules{
     height: 200px;
     position: absolute;
-    left: 30%;
+    left: 10%;
+    top:0%;
+}
 
+.PlaneRules:hover{
+    
+    animation: planeMove 1.5s steps(5) infinite;
+
+}
+
+@keyframes planeMove {
+    0%{
+        top:0%;
+
+    }
+    25%{
+        top:2%;
+    }
+    50%{
+        top:4%;
+    }
+    75%{
+        top:2%;
+    }
+    
+    100% {
+    
+        top:0%;
+    }
+    
 }
 
 
@@ -157,14 +176,47 @@ body{
     height: 100px;
     width: 100px;
 
+
+}
+
+.Trophy:hover{
+    animation: rocketMove 1.5s steps(5) infinite;
 }
 
 .rocket{
     height: 175px;
     width: 175px;
     position: absolute;
-    top:66%;
+    bottom:4%;
     left: 60%;
 
+
 }
+
+.rocket:hover {
+    animation: rocketMove 1.5s steps(5) infinite;
+    
+}
+
+@keyframes rocketMove {
+    0%{
+        bottom:4%;
+
+    }
+    25%{
+        bottom:6%;
+    }
+    50%{
+        bottom:8%;
+    }
+    75%{
+        bottom:6%;
+    }
+    
+    100% {
+    
+        bottom:4%;
+    }
+}
+
 
