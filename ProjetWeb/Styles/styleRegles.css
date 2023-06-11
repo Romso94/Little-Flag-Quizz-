@@ -3,7 +3,7 @@
 body{
     margin-top: 10px;
     background-image: linear-gradient(to right top, #304c89, #12639c, #0079aa, #008eb3, #00a3b9, #2db2b7, #51c0b3, #73cdae, #9fd8ae, #c4e2b5, #e4ecc2, #fff7d6);
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -19,6 +19,7 @@ nav {
     display:flex;
     align-items:center;
     justify-content:space-between;
+    background-image: linear-gradient(to right top, #648de5, #408dd7, #1f8ac6, #0e86b2, #1c819e);
   }
   
   ul {
@@ -50,12 +51,12 @@ nav {
     height: 700px;
     width: 70%;
     border: 1px solid #000;
-    background-color: #333;
+    background-color:  #191c29;
     margin-left: auto; 
   margin-right: auto;
   
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   }
 
 
@@ -126,3 +127,57 @@ h1, h3,h2{
   height: 150px;
 
 }
+
+
+.buttton{
+            
+  height: 40px;
+  width: 150px;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkPage{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttton:hover{
+  background-color: #191c29;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s ease-in-out;
+  text-decoration-color: white;
+ 
+}
+
+.linkPage:hover{
+  color: white;
+  
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:auto;
+
+  margin-top: 10px;
+border:solid 2px black;
+
+
+
+background-image: linear-gradient(to right top, #648de5, #408dd7, #1f8ac6, #0e86b2, #1c819e);
+
+}
+
+.footertext{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+}
+
